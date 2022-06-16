@@ -1,0 +1,39 @@
+
+
+
+
+.header-menu {
+    width: 100%;
+    height: 400px;
+    background: url(./../img/header-rest-nav-1.jpg) center;
+    
+}
+
+.wrap-title {
+    width: 100%;
+    /*width: 600px;*/
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+.header-menu-title {
+    padding: 40px 0 10px;
+}
+
+.header-menu-subtitle {
+    padding-right: 10px;
+}
+
+/*блок с карточками ресторана*/
+
+.content-card {
+    margin-top: 30px;
+    max-width: 1200px;
+    justify-content: center;
+    
+}
+
+.card {
+    margin: 15px 0;
+}
