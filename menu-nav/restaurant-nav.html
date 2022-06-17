@@ -18,22 +18,21 @@
 <body>
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-xl navbar-dark bg-dark"><!--Меню-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!--Меню-->
                 <div class="container-fluid">
                     <a class="navbar-brand" href="./../index.html">Владикавказ</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Новости</a>
                             </li>
                             <!--<li class="nav-item">
-                                <a class="nav-link" href="#">Новости</a>
-                            </li>-->
+                                            <a class="nav-link" href="#">Новости</a>
+                                        </li>-->
                             <li class="nav-item dropdown">
                                 <!--Где поесть-->
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -41,7 +40,7 @@
                                     Где поесть
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Рестораны</a></li>
+                                    <li><a class="dropdown-item" href="./menu-nav/restaurant-nav.html">Рестораны</a></li>
                                     <li><a class="dropdown-item" href="#">Кафе</a></li>
                                     <li><a class="dropdown-item" href="#">Кондитерские</a></li>
                                     <li>
@@ -86,8 +85,8 @@
                             <!--Где отдохнуть конец-->
                             </li>
                             <!--<li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
-                            </li>-->
+                                            <a class="nav-link disabled">Disabled</a>
+                                        </li>-->
                         </ul>
                         <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -101,7 +100,7 @@
                 <div class="wrap-title">
                     <div class="container">
                         <div class="row">
-                            <div class="col col-md-8 col-xl-6">
+                            <div class="col col-md-8 col-xxl-6">
                                 <div class="header-menu-title">
                                     <h1>Лучшие рестораны</h1>
                                 </div>
@@ -129,20 +128,9 @@
             <div class="content-card">
                 <div class="container"><!--Блок с карточками ресторанов-->
                     <div class="row">
-                        <div class="col-xs-8 col-md-6 col-xl-4">
-                            <div class="card" >
-                                <img src="./../partners/vladikavkaz/restoran/Grusha/img/Grusha.jpg" class="card-img-top" alt="Ресторан Груша">
-                                <div class="card-body">
-                                    <h5 class="card-title">Груша</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-dark d-grid gap-2">перейти</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-8 col-md-6 col-xl-4">
+                        <div class="col-xs-8 col-md-6 col-lg-4"><!--Карточка ресторана Бавария-->
                             <div class="card">
-                                <img src="./../img/zaglushka.jpg" class="card-img-top" alt="...">
+                                <img src="./../partners/vladikavkaz/restoran/Bavaria/img/bavaria-2.jpg" class="card-img-top" alt="Ресторан Бавария">
                                 <div class="card-body">
                                     <h3 class="card-title">Бавария</h3>
                                     <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
@@ -165,6 +153,12 @@
                                                 11:00-23:00
                                             </span>
                                         </li>
+                                        <li class="list-group-item">
+                                            <img src="./../img/icon/palette.svg" alt="">
+                                            <span class="fw-bold">
+                                                Кухня: русская, осетинская, корейская
+                                            </span>
+                                        </li>
 
                                         <li class="list-group-item"><span class="fw-bold">Рейтинг:</span>
                                             <div class="card-stars">
@@ -179,58 +173,107 @@
                                     <a href="#" class="btn btn-dark d-grid gap-2">перейти</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-8 col-md-6 col-xl-4">
+                        </div><!--/Карточка ресторана Бавария-->
+
+                        <div class="col-xs-8 col-md-6 col-lg-4"><!--Карточка ресторана Груша-->
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="./../partners/vladikavkaz/restoran/Grusha/img/grusha-2.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-primary">перейти</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-8 col-md-6 col-xl-4">
-                            <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-primary">перейти</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-8 col-md-6 col-xl-4">
-                            <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-primary">перейти</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-8 col-md-6 col-xl-4">
-                            <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-primary">перейти</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
+                                    <h3 class="card-title">Груша</h3>
+                                    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <!--<span class="fw-bold">Телефон:</span>-->
+                                            <div class=phone>
+                                                <img src="./../img/icon/telephone-outbound.svg" alt="">
+                                                <a href="tel:+79188356040">+7 (867) 276-33-хх</a>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img src="./../img/icon/geo-alt.svg" alt="">
+                                            <span class="fw-bold">
+                                                г. Владикавказ, ул. Шмулевича 15.
+                                                <!--Адрес:-->
+                                            </span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img src="./../img/icon/bookmarks.svg" alt="">
+                                            <span class="fw-bold">
+                                                Часы работы: 11:00-23:00
+                                            </span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img src="./../img/icon/palette.svg" alt="">
+                                            <span class="fw-bold">
+                                                Кухня: русская, осетинская, корейская
+                                            </span> 
+                                        </li>
                         
+                                        <li class="list-group-item"><span class="fw-bold">Рейтинг:</span>
+                                            <div class="card-stars">
+                                                <img src="./../img/icon/star-fill.svg" alt="">
+                                                <img src="./../img/icon/star-fill.svg" alt="">
+                                                <img src="./../img/icon/star-fill.svg" alt="">
+                                                <img src="./../img/icon/star-half.svg" alt="">
+                                                <img src="./../img/icon/star.svg" alt="">
+                                            </div>
+                                        </li>
+                                    </ul><br>
+                                    <a href="#" class="btn btn-dark d-grid gap-2">перейти</a>
+                                </div>
+                            </div>
+                        </div><!--/Карточка ресторана Груша-->
+
+                        <div class="col-xs-8 col-md-6 col-lg-4"><!--Карточка ресторана Жемчужина-->
+                            <div class="card">
+                                <img src="./../partners/vladikavkaz/restoran/pearl/img/pearl-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title">Жемчужина</h3>
+                                    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <!--<span class="fw-bold">Телефон:</span>-->
+                                            <div class=phone>
+                                                <img src="./../img/icon/telephone-outbound.svg" alt="">
+                                                <a href="tel:+79188356040">+7 (867) 225-94-34</a>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img src="./../img/icon/geo-alt.svg" alt="">
+                                            <span class="fw-bold">
+                                                г. Владикавказ, пр. Коста 11 А.
+                                                <!--Адрес:-->
+                                            </span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img src="./../img/icon/bookmarks.svg" alt="">
+                                            <span class="fw-bold">
+                                                Часы работы: 09:00-00:00
+                                            </span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img src="./../img/icon/palette.svg" alt="">
+                                            <span class="fw-bold">
+                                                Кухня: русская, осетинская, корейская
+                                            </span>
+                                        </li>
+                        
+                                        <li class="list-group-item"><span class="fw-bold">Рейтинг:</span>
+                                            <div class="card-stars">
+                                                <img src="./../img/icon/star-fill.svg" alt="">
+                                                <img src="./../img/icon/star-fill.svg" alt="">
+                                                <img src="./../img/icon/star-fill.svg" alt="">
+                                                <img src="./../img/icon/star-half.svg" alt="">
+                                                <img src="./../img/icon/star.svg" alt="">
+                                            </div>
+                                        </li>
+                                    </ul><br>
+                                    <a href="#" class="btn btn-dark d-grid gap-2">перейти</a>
+                                </div>
+                            </div>
+                        </div><!--/Карточка ресторана Жемчужина-->
                     </div>
+
                 </div><!--/Блок с карточками ресторанов-->
             </div>            
         </div>
@@ -243,24 +286,42 @@
                 <div class="row-advertising">
                     <div class="card mb-3">
                         <div class="row g-0">
-                            <div class="col-md-2">
-                                <img src="https://i.ibb.co/WPsHdSn/advertising-1.jpg" class="img-fluid rounded-start" alt="...">
+                            <div class="col">
+                                <div class="card text-center">
+                                    <div class="card-header">
+                                        Featured
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="./../img/Screenshot_1.jpg" class="img-fluid" alt="...">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                    </div>
+                                    <div class="card-footer">
+
+                                    </div>
+                                </div>
+                                <img src="./../img/podarok-16.jpg" class="img-fluid" alt=""
                             </div>
-                            <div class="col-md-10">
+                            <!--<div class="col-md-9">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Подарки для близких</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                         additional
-                                        content. This content is a little bit longer.</p>
+                                        content. This content is a little bit longer.
+                                    </p>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis adipisci possimus ex veritatis enim nam aperiam temporibus inventore, natus libero laborum. Maxime repellendus, consequatur officia totam ipsa nam veniam. Pariatur?
+                                    </p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-2">
-                                <img src="https://i.ibb.co/B6yxL4b/advertising-2.jpg" class="img-fluid rounded-start" alt="...">
+                                <img src="https://i.ibb.co/B6yxxL4b/advertising-2.jpg" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-10">
                                 <div class="card-body">
