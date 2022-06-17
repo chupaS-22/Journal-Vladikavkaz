@@ -38,3 +38,25 @@
     margin: 15px 0;
 }
 
+.card-img-top {
+    
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone a {
+
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.card-stars img{
+    
+   color: aqua;
+}
+
